@@ -6,6 +6,32 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
+echo -e  "\033[35;1m╔════════════════════════════════════════════════════════╗"
+echo -e  "\033[35;1m║ \033[31;1m • \033[33;1m AUTHOR CY78          \033[35;1m                              ║"
+echo -e  "\033[35;1m║ \033[31;1m • \033[35;1m DILIRIS 2024-10-6 OKTIBER \033[35;1m                         ║"
+echo -e  "\033[35;1m║ \033[35;1m • \033[32;1m ua_931                  \033[35;1m                           ║"
+echo -e  "\033[35;1m║ \033[33;1m • \033[34;1m PREMIUM                \033[35;1m                            ║"
+echo -e  "\033[35;1m╚════════════════════════════════════════════════════════╝"
+verify_credentials() {
+local expected_username="CY78"
+local expected_password="🌷🌷🌷"
+while true; do
+read -p "Username: " username
+read -s -p "Password: " password
+echo
+if [ "$username" == "$expected_username" ] && [ "$password" == "$expected_password" ]; then
+echo "Login berhasil!"
+break
+else
+echo "ANDA BELUM LANGGANAN  SILAKAN BELI KAKAK CANTIK "
+fi
+done
+}
+verify_credentials
+sleep 2
+clear
+ xdg-open "https://www.tiktok.com/@kinghozooff?_t=8qNO3OFExSX&_r=1"
+sleep 1
 clear
 echo " \033[35;1m INSTALL MODULE PKG TERMUX"
 sleep 2
