@@ -50,7 +50,7 @@ pkg install python-tkinter -y
 pkg install python -y
 pkg install python2 -y
 clear
-mpv /storage/emulated/0/H404.mp3
+mpv TIKTOK.mp3
 date
 echo -e  "\033[35;1m╔════════════════════════════════════════════════════════╗"
 echo -e  "\033[35;1m║ \033[31;1m • \033[33;1m AUTHOR CY78          \033[35;1m                              ║"
