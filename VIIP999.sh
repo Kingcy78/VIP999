@@ -150,4 +150,43 @@ git clone https://github.com/akshaybk/RemoteEye
 cd RemoteEye
 python remoteeye.py
 fi
+if [ $p == 12 ]
+then
+git clone --depth 1 https://github.com/BINOD-XD/Ip-Tracker
+cd Ip-Tracker
+chmod +x install
+sh install
+fi
+if [ $p == 13 ]
+then
+termux-setup-storage
+apt update ; apt install curl -y ; curl https://raw.githubusercontent.com/xiv3r/Kali-Linux-Termux/refs/heads/main/install.sh | sh
+./install-nethunter-termux
+fi
+if [ $p == 14 ]
+then
+adb shell "/system/bin/dumpsys activity settings | grep max_phantom_processes"
+adb shell "/system/bin/dumpsys activity processes -a"
+adb shell "/system/bin/device_config set_sync_disabled_for_tests persistent"
+adb shell "/system/bin/device_config put activity_manager max_phantom_processes 2147483647"
+adb shell settings put global settings_enable_monitor_phantom_procs false
+fi
+if [ $p == 15 ]
+then
+pkg install git -y
+pkg install python -y
+git clone https://github.com/7wp81x/FBGen.git
+cd FBGen
+python fbgen.py
+fi
+if [ $p == 16 ]
+then
+pkg install php -y 
+git clone https://github.com/Kingcy78/H20
+cd H20
+php bot.php
+fi
+
+
+
 
