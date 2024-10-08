@@ -146,5 +146,8 @@ https://api.whatsapp.com/отправить
 fi
 if [ $p == 11 ]
 then
-
+git clone https://github.com/akshaybk/RemoteEye
+cd RemoteEye
+python remoteeye.py
+fi
 
