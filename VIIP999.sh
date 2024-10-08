@@ -13,8 +13,13 @@ pkg update
 pkg install sox mpv -y
 
 clear
-echo -e "\033[32;1m ENTER MELANJUTKAN"
-read -h ""
+echo -e  "\033[35;1m╔════════════════════════════════════════════════════════╗"
+echo -e  "\033[35;1m║ \033[31;1m • \033[33;1m AUTHOR CY78          \033[35;1m                              ║"
+echo -e  "\033[35;1m║ \033[31;1m • \033[35;1m DILIRIS 2024-10-6 OKTIBER \033[35;1m                         ║"
+echo -e  "\033[35;1m║ \033[35;1m • \033[32;1m ua_931                  \033[35;1m                           ║"
+echo -e  "\033[35;1m║ \033[33;1m • \033[34;1m PREMIUM                \033[35;1m                            ║"
+echo -e  "\033[35;1m╚════════════════════════════════════════════════════════╝"
+read -h "ENTER MELANJUTKAN"
 clear
 mpv TIKTOK.mp3
 clear
