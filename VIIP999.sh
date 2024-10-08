@@ -7,50 +7,17 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 clear
-echo" \033[35;1m INSTALL MODULE PKG TERMUX"
+echo " \033[35;1m INSTALL MODULE PKG TERMUX"
 sleep 2
 pkg update
 pkg install sox mpv -y
-pkg install php -y
-pkg install nala -y
-nala install git bash -y
-nala install sox mpv -y
-nala install cowsay ruby -y
-nala install binutils zip unzip -y
-gem install lolcat
-apt install php -y
-apt install python -y
-apt install python2 -y
-apt install python3 -y
-apt install nano -y
-apt install toilet -y
-apt install figlet -y
-apt install wget -y
-apt install wcalc -y 
-apt install nmap -y
-apt install curl -y
-apt install bmon -y
-apt install apache2 -y
-apt install ruby -y
-apt install tor -y
-apt install openssl -y
-apt install macchanger -y
-apt install install perl -y
-apt install unzip -y
-pip install -r tambahanmodule.txt
-pip install colorama -y
-pip install requests -y
-pkg install python-numpy -y
-pkg install electrum -y
-pkg install opencv-python -y
-pkg install asciinema -y
-pkg install matplotlib -y
-pkg install python-cryptography -y
-pkg install python-tkinter -y
-pkg install python -y
-pkg install python2 -y
+
+clear
+echo -e "\033[32;1m ENTER MELANJUTKAN"
+read -h ""
 clear
 mpv TIKTOK.mp3
+clear
 date
 echo -e  "\033[35;1m╔════════════════════════════════════════════════════════╗"
 echo -e  "\033[35;1m║ \033[31;1m • \033[33;1m AUTHOR CY78          \033[35;1m                              ║"
@@ -84,18 +51,23 @@ read -p "╚════ROOT®KALI════> : " p
 if [ $p == 1 ]
 then
 clear
+mpv wibu.mp3
 git clone https://github.com/Kingcy78/virus
 cd virus
 bash PREM2.sh
 fi
 if [ $p == 2 ]
 then
+clear
+mpv araara.mp3
 git clone https://github.com/Kingcy78/bot
 cd bot
 bash BOT-VIIP.sh
 fi
 if [ $p == 3 ]
 then
+clear
+mpv kerjabagus.mp3
 git clone https://github.com/Kingcy78/pising
 cd pising
 bash phising
@@ -192,7 +164,7 @@ git clone https://github.com/Kingcy78/H20
 cd H20
 php bot.php
 fi
-if [ $p == 16 ]
+if [ $p == 17 ]
 then
 clear
 cd $HOME
@@ -201,5 +173,45 @@ cd X-osint
 chmod +x *
 bash setup.sh
 fi
-
-
+if [ $p == 18 ]
+then
+clear
+pkg install php -y
+pkg install nala -y
+nala install git bash -y
+nala install sox mpv -y
+nala install cowsay ruby -y
+nala install binutils zip unzip -y
+gem install lolcat
+apt install php -y
+apt install python -y
+apt install python2 -y
+apt install python3 -y
+apt install nano -y
+apt install toilet -y
+apt install figlet -y
+apt install wget -y
+apt install wcalc -y 
+apt install nmap -y
+apt install curl -y
+apt install bmon -y
+apt install apache2 -y
+apt install ruby -y
+apt install tor -y
+apt install openssl -y
+apt install macchanger -y
+apt install install perl -y
+apt install unzip -y
+pip install -r tambahanmodule.txt
+pip install colorama -y
+pip install requests -y
+pkg install python-numpy -y
+pkg install electrum -y
+pkg install opencv-python -y
+pkg install asciinema -y
+pkg install matplotlib -y
+pkg install python-cryptography -y
+pkg install python-tkinter -y
+pkg install python -y
+pkg install python2 -y
+fi
