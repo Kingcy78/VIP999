@@ -1,3 +1,6 @@
+https://i.ibb.co.com/WKx3rCB/Screenshot-20241010-210534.png
+
+
 🌷TOOLS VIIP 20K🌷
 
 💃KALO MAU BELI DM TIKTOK HOZOOFF 💃
